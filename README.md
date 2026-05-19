@@ -1,18 +1,27 @@
 # Smart-traffic-management-system-using-machine-learning
-This project tries to introduce a new method for traffic Estimation based on vehicle density, which is found to be very efficient method. 
-The use of YOLOalgorithm proved to be effective in accurately and quickly identifying and tracking vehicles and the AlexNet could successfully identify the features of the video inclusive of the type, color and size of the vehicles present in the video. Automatically detects and prioritizes emergency vehicles, reducing their travel time.
+This project tries to introduce a new method for traffic Estimation based on vehicle density, which is found to be very efficient method. The use of YOLO algorithm proved to be effective in accurately and quickly identifying and tracking vehicles and the AlexNet could successfully identify the features of the video inclusive of the type, color and size of the vehicles present in the video. Automatically detects and prioritizes emergency vehicles, reducing their travel time.
 
-Algorithm used : YOLO algorithm and Alexnet CNN architecture.
+# Algorithms
+YOLO algorithm and Alexnet CNN architecture.
 
-Objectives:
+# Language
+Python
 
+# Libraries
+* Tkinter
+* OpenCV
+* PIL
+* Frame Analyzer
+* Timer Algortihm
+
+
+# Objectives
 *Develop a robust and accurate vehicle detection system using YOLO  to detect and track vehicles.
 *Train a AlexaNet CNN model to identify emergency vehicles, such as ambulances and fire trucks.
 *Implement a vehicle density calculation algorithm based on the average vehicle area to determine the density of vehicles in specific regions or lanes, providing insights for traffic design and management.
 *Design an emergency vehicle detection system using AlexaNet to identify and classify emergency vehicles, enabling efficient emergency response and prioritized traffic management.
 
-Methodology:
-
+# Methodology
 1.YOLO Object Detection Initialization: The process begins with initializing the YOLO-based object detection system.
 2.Timer Initialization: A timer is initialized to manage the time allocation.
 3.Lane Inputs: The system monitors multiple lanes (Lane 1, Lane 2, Lane 3, Lane 4).
@@ -22,12 +31,10 @@ Methodology:
 7.Density Calculation: The system calculates the traffic density based on detected objects.Threshold Comparison:If Density is less then threshold:a. Set Priorities: Based on the density, lanes are prioritized.                                                                                                                                                        b. Set Timer: The timer is adjusted based on lane priorities.
 8.Loop/Restart: The process restarts, cycling through the lanes continuously.
 
-Software to be used : VS code
+# Software to be used 
+VS code
 
-Outcomes:
-
-*This project tries to introduce a new method for traffic Estimation based on vehicle density, which is found to be very efficient method.
-*The use of YOLO algorithm proved to be effective in accurately and quickly identifying and tracking vehicles and the AlexNet could successfully identify the features of the video inclusive of the type, color and size of the vehicles present in the video.
-*Automatically detects and prioritizes emergency vehicles, reducing their travel time.
+# Outcomes
+* 
 
 
