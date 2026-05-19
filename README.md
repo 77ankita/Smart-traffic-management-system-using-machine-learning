@@ -1,40 +1,41 @@
 # Smart-traffic-management-system-using-machine-learning
 This project tries to introduce a new method for traffic Estimation based on vehicle density, which is found to be very efficient method. The use of YOLO algorithm proved to be effective in accurately and quickly identifying and tracking vehicles and the AlexNet could successfully identify the features of the video inclusive of the type, color and size of the vehicles present in the video. Automatically detects and prioritizes emergency vehicles, reducing their travel time.
 
-# Algorithms
+# Algorithm and architecture
 YOLO algorithm and Alexnet CNN architecture.
 
 # Language
 Python
+
+# Tools
+VS Code
 
 # Libraries
 * Tkinter
 * OpenCV
 * PIL
 * Frame Analyzer
-* Timer Algortihm
-
-
+* Timer Algorithm
+  
 # Objectives
-*Develop a robust and accurate vehicle detection system using YOLO  to detect and track vehicles.
-*Train a AlexaNet CNN model to identify emergency vehicles, such as ambulances and fire trucks.
-*Implement a vehicle density calculation algorithm based on the average vehicle area to determine the density of vehicles in specific regions or lanes, providing insights for traffic design and management.
-*Design an emergency vehicle detection system using AlexaNet to identify and classify emergency vehicles, enabling efficient emergency response and prioritized traffic management.
-
+* To automate traffic signal timing based on vehicle count in each lane.
+* Detection of emergency vehicles and set priority of signals.
+* Count total number of vehicles in each lane.
+* Also counts total number of emergency and non-emergency vehicles.
+  
 # Methodology
-1.YOLO Object Detection Initialization: The process begins with initializing the YOLO-based object detection system.
-2.Timer Initialization: A timer is initialized to manage the time allocation.
-3.Lane Inputs: The system monitors multiple lanes (Lane 1, Lane 2, Lane 3, Lane 4).
-4.Capture Video: Video feed from the selected lane is captured.
-5.Video Pre-Processing: The captured video is pre-processed for object detection.
-6.YOLO Object Detection: The pre-processed video is fed into the YOLO object detection model to identify objects (e.g., vehicles).
-7.Density Calculation: The system calculates the traffic density based on detected objects.Threshold Comparison:If Density is less then threshold:a. Set Priorities: Based on the density, lanes are prioritized.                                                                                                                                                        b. Set Timer: The timer is adjusted based on lane priorities.
-8.Loop/Restart: The process restarts, cycling through the lanes continuously.
+1. YOLO Object Detection Initialization
+2. Timer Initialization
+3. Lane Inputs the system monitors multiple lanes (Lane 1, Lane 2, Lane 3, Lane 4).
+4. Capture Video
+5. Video Pre-Processing
+6. YOLO Object Detection
+7. Density Calculation: The system calculates the traffic density based on detected objects.Threshold Comparison:If Density is less then threshold:a. Set Priorities: Based on the density, lanes are prioritized.                                                                                                                                                     b. Set Timer: The timer is adjusted based on lane priorities.
+8. Loop/Restart: The process restarts, cycling through the lanes continuously.
 
-# Software to be used 
-VS code
-
-# Outcomes
+# Output
+* The system sets priority for each lane based on Emergency Vehicles and Non-Emergency Vehicles(NEV) and gives priority for emergency vehicles(EV).
+* Counts total number of Emegency Vehicles(TEV).
+* It also counts the number of emergency vehicles in each lane.
+* Based on the density of traffic it alots Estimated Time Required(ETR) for each lane.
 * 
-
-
