@@ -38,4 +38,4 @@ VS Code
 * Counts total number of Emegency Vehicles(TEV).
 * It also counts the number of emergency vehicles in each lane.
 * Based on the density of traffic it alots Estimated Time Required(ETR) for each lane.
-* 
+
